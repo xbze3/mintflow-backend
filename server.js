@@ -34,7 +34,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
     cors({
-        origin: "*",
+        origin: "https://mintflow.onrender.com/",
         allowedHeaders: ["Authorization", "Content-Type"],
     })
 );
